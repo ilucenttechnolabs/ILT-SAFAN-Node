@@ -1,0 +1,737 @@
+{
+	"id": "10a6d1af-0cac-f8ed-616b-b25978465ea4",
+	"name": "Node Test",
+	"description": "",
+	"order": [
+		"1cbe9471-02e5-2389-78d4-b94ab3fb9ae5",
+		"b1b455bf-0587-6bae-4daf-6302cc8c3c85",
+		"425ea21b-aff6-5e00-39b9-612b9801ccf2",
+		"11b6516d-d3d8-f6ca-fa9a-24f89c780e4a",
+		"ac034f37-28b2-f32e-2cbf-bfa1f00bdb1d",
+		"0db8732f-5fa4-a458-443b-35ebce571215"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1608056372514,
+	"owner": "1897631",
+	"public": false,
+	"requests": [
+		{
+			"id": "0db8732f-5fa4-a458-443b-35ebce571215",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/addArticle",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "nickname",
+					"value": "level",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "Breakdance Becomes an Olympic Sport – level 1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "Breakdance is a type of street dance. It starts in the US in the 1970s. African Americans start this dance in New York. It quickly gets very popular. It goes all over the world.\n\nA report says that more than a million break dancers are in the world. It is a big number. Many break dancers are happy now. Breakdance becomes an Olympic sport. It will be at the Olympic games in Paris in 2024. It is important news for all the community of break dancers. They will be a part of the Olympic world.\n\nBreak dancers must be strong. Olympic judges will watch other things, too. They will judge style. They will judge dancers´ interesting and unusual tricks.",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608056599257,
+			"name": "Add Article",
+			"description": "http://localhost:3000/addArticle",
+			"collectionId": "10a6d1af-0cac-f8ed-616b-b25978465ea4",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 192,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "53",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 15 Dec 2020 11:29:01 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"35-uqAq0M4NsN1EC5fXK7Uq2ZiQAGw\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"error\":false,\"msg\":\"Article created successfully!\"}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Add Article",
+					"id": "c70467f6-a471-4f06-1338-5c2f20080390",
+					"request": {
+						"url": "http://localhost:3000/addArticle",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headers": "Content-Type: application/x-www-form-urlencoded\n",
+						"data": [
+							{
+								"key": "nickname",
+								"value": "level",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "title",
+								"value": "Breakdance Becomes an Olympic Sport – level 1",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "content",
+								"value": "Breakdance is a type of street dance. It starts in the US in the 1970s. African Americans start this dance in New York. It quickly gets very popular. It goes all over the world.\n\nA report says that more than a million break dancers are in the world. It is a big number. Many break dancers are happy now. Breakdance becomes an Olympic sport. It will be at the Olympic games in Paris in 2024. It is important news for all the community of break dancers. They will be a part of the Olympic world.\n\nBreak dancers must be strong. Olympic judges will watch other things, too. They will judge style. They will judge dancers´ interesting and unusual tricks.",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"method": "POST",
+						"dataMode": "urlencoded"
+					}
+				}
+			]
+		},
+		{
+			"id": "11b6516d-d3d8-f6ca-fa9a-24f89c780e4a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/commentList/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "10a6d1af-0cac-f8ed-616b-b25978465ea4",
+			"data": null,
+			"dataMode": "params",
+			"name": "Comment List by article id",
+			"description": "http://localhost:3000/commentList/1",
+			"descriptionFormat": "html",
+			"time": 1608056466310,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 22,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "342",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 15 Dec 2020 13:51:08 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"156-3h3MnWV/Rkt8PG4V4J5PEG5XQrk\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"error\":false,\"msg\":\"All Comments\",\"data\":[{\"id\":2,\"article_id\":1,\"parant_id\":null,\"nickname\":\"John\",\"content\":\"The content field is mandatory.\",\"created_at\":\"2020-12-15T12:24:58.000Z\",\"replyList\":[{\"id\":3,\"article_id\":1,\"parant_id\":2,\"nickname\":\"John\",\"content\":\"The content field is mandatory.\",\"created_at\":\"2020-12-15T12:28:04.000Z\"}]}]}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Comment List by article id",
+					"id": "bc7374aa-5f55-572f-c566-8e56275fa0e9",
+					"request": {
+						"url": "http://localhost:3000/commentList/1",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1cbe9471-02e5-2389-78d4-b94ab3fb9ae5",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/articleDetail/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608056536428,
+			"name": "Get Article by id",
+			"description": "http://localhost:3000/articleDetail/2",
+			"collectionId": "10a6d1af-0cac-f8ed-616b-b25978465ea4",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 18,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "845",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 15 Dec 2020 12:07:52 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"34d-XFa3OFsXmIeW4b7OnkZfg/MK8vM\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"error\":false,\"msg\":\"Aricle Detail\",\"data\":{\"id\":2,\"nickname\":\"level\",\"title\":\"Breakdance Becomes an Olympic Sport – level 1\",\"content\":\"Breakdance is a type of street dance. It starts in the US in the 1970s. African Americans start this dance in New York. It quickly gets very popular. It goes all over the world.\\r\\n\\r\\nA report says that more than a million break dancers are in the world. It is a big number. Many break dancers are happy now. Breakdance becomes an Olympic sport. It will be at the Olympic games in Paris in 2024. It is important news for all the community of break dancers. They will be a part of the Olympic world.\\r\\n\\r\\nBreak dancers must be strong. Olympic judges will watch other things, too. They will judge style. They will judge dancers´ interesting and unusual tricks.\",\"created_at\":\"2020-12-15T11:29:01.000Z\"}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Get Article by id",
+					"id": "a8ef789e-c28d-ba76-3520-900d06f888dd",
+					"request": {
+						"url": "http://localhost:3000/articleDetail/2",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			]
+		},
+		{
+			"id": "425ea21b-aff6-5e00-39b9-612b9801ccf2",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/reply",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608056514964,
+			"name": "Reply on comment",
+			"description": "http://localhost:3000/reply",
+			"collectionId": "10a6d1af-0cac-f8ed-616b-b25978465ea4",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 157,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "55",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 15 Dec 2020 12:28:05 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"37-A2v0wXcVsel2sElwv+TqD0IuNaA\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"error\":false,\"msg\":\"Comment submitted successfully!\"}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Reply on comment",
+					"id": "9f6374cb-69b7-9ac9-13bb-a18c69113219",
+					"request": {
+						"url": "http://localhost:3000/reply",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headers": "Content-Type: application/x-www-form-urlencoded\n",
+						"data": [
+							{
+								"key": "nickname",
+								"value": "John",
+								"type": "text",
+								"enabled": true,
+								"description": ""
+							},
+							{
+								"key": "article_id",
+								"value": "1",
+								"type": "text",
+								"enabled": true,
+								"description": ""
+							},
+							{
+								"key": "content",
+								"value": "The content field is mandatory.",
+								"type": "text",
+								"enabled": true,
+								"description": ""
+							},
+							{
+								"key": "comment_id",
+								"value": "1",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"method": "POST",
+						"dataMode": "urlencoded"
+					}
+				}
+			]
+		},
+		{
+			"id": "ac034f37-28b2-f32e-2cbf-bfa1f00bdb1d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/list?page=1",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608056564729,
+			"name": "Get Article List",
+			"description": "http://localhost:3000/list?page=1",
+			"collectionId": "10a6d1af-0cac-f8ed-616b-b25978465ea4",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 21,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "2467",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 15 Dec 2020 12:01:38 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"9a3-UZTqhZy+zM8YNBF4C8Sqr8mCwow\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"error\":false,\"msg\":\"All Aricles\",\"TotalPages\":1,\"NextPage\":1,\"data\":[{\"id\":1,\"nickname\":\"level\",\"title\":\"Breakdance Becomes an Olympic Sport – level 1\",\"content\":\"Breakdance is a type of street dance. It starts in the US in the 1970s. African Americans start this dance in New York. It quickly gets very popular. It goes all over the world.\\n\\nA report says that more than a million break dancers are in the world. It is a big number. Many break dancers are happy now. Breakdance becomes an Olympic sport. It will be at the Olympic games in Paris in 2024. It is important news for all the community of break dancers. They will be a part of the Olympic world.\\n\\nBreak dancers must be strong. Olympic judges will watch other things, too. They will judge style. They will judge dancers´ interesting and unusual tricks.\",\"created_at\":\"2020-12-15T11:29:01.000Z\"},{\"id\":2,\"nickname\":\"level\",\"title\":\"Breakdance Becomes an Olympic Sport – level 1\",\"content\":\"Breakdance is a type of street dance. It starts in the US in the 1970s. African Americans start this dance in New York. It quickly gets very popular. It goes all over the world.\\r\\n\\r\\nA report says that more than a million break dancers are in the world. It is a big number. Many break dancers are happy now. Breakdance becomes an Olympic sport. It will be at the Olympic games in Paris in 2024. It is important news for all the community of break dancers. They will be a part of the Olympic world.\\r\\n\\r\\nBreak dancers must be strong. Olympic judges will watch other things, too. They will judge style. They will judge dancers´ interesting and unusual tricks.\",\"created_at\":\"2020-12-15T11:29:01.000Z\"},{\"id\":3,\"nickname\":\"level\",\"title\":\"Breakdance Becomes an Olympic Sport – level 1\",\"content\":\"Breakdance is a type of street dance. It starts in the US in the 1970s. African Americans start this dance in New York. It quickly gets very popular. It goes all over the world.\\r\\n\\r\\nA report says that more than a million break dancers are in the world. It is a big number. Many break dancers are happy now. Breakdance becomes an Olympic sport. It will be at the Olympic games in Paris in 2024. It is important news for all the community of break dancers. They will be a part of the Olympic world.\\r\\n\\r\\nBreak dancers must be strong. Olympic judges will watch other things, too. They will judge style. They will judge dancers´ interesting and unusual tricks.\",\"created_at\":\"2020-12-15T11:29:01.000Z\"}]}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Get Ar t i cle List",
+					"id": "a975ea3c-a79e-2b63-5103-8b2b303673ed",
+					"request": {
+						"url": "http://localhost:3000/list?page=1",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "page",
+								"value": "1",
+								"equals": true,
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			]
+		},
+		{
+			"id": "b1b455bf-0587-6bae-4daf-6302cc8c3c85",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/comment",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608056524804,
+			"name": "Add Comment",
+			"description": "http://localhost:3000/comment",
+			"collectionId": "10a6d1af-0cac-f8ed-616b-b25978465ea4",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 52,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "55",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 15 Dec 2020 12:24:58 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "etag",
+							"key": "etag",
+							"value": "W/\"37-A2v0wXcVsel2sElwv+TqD0IuNaA\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"error\":false,\"msg\":\"Comment submitted successfully!\"}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Add Comment",
+					"id": "ff966a30-d843-6fb9-ee4f-48dce9d1a4ce",
+					"request": {
+						"url": "http://localhost:3000/comment",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headers": "Content-Type: application/x-www-form-urlencoded\n",
+						"data": [
+							{
+								"key": "nickname",
+								"value": "John",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "article_id",
+								"value": "1",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "content",
+								"value": "The content field is mandatory.",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"method": "POST",
+						"dataMode": "urlencoded"
+					}
+				}
+			]
+		}
+	]
+}
